@@ -44,3 +44,13 @@ LEFT JOIN – left table ka pura data + matching
 RIGHT JOIN – right table ka pura data + matching
 FULL JOIN – dono tables ka data
 
+. Best Practices for SQL
+
+- select * avoid karna chahiye
+- where clause use karna chahiye
+- queries simple aur readable honi chahiye
+- proper naming use karni chahiye
+- unnecessary joins avoid karne chahiye
+- indexing use karni chahiye
+- large data me limit use karna chahiye
+- queries run karne se pehle test karna chahiye
