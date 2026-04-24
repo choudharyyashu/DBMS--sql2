@@ -1,5 +1,44 @@
 SqlSession 2 Assignment
+SQL Execution Flow
 
+SQL queries hum jis order me likhte hain us order me execute nahi hoti.
+Database apne internal order me query ko run karta hai.
+
+Actual execution order is:
+
+from → join → where → group by → having → select → order by
+
+Explanation:
+
+ from  
+   sabse pehle table select hoti hai jisme se data lena hai
+
+ join  
+   agar multiple tables hain to unhe combine kiya jata hai
+
+ where  
+   data ko filter kiya jata hai (conditions lagti hain)
+
+ group by  
+   same values ko group kiya jata hai
+
+ having  
+   grouped data par condition lagti hai
+
+ select  
+   final columns choose kiye jate hain jo output me dikhte hain
+
+ order by  
+   result ko sort kiya jata hai (ascending ya descending)
+
+Why SQL follows this order:
+
+ pehle data collect hota hai (from, join)
+ phir unwanted data remove hota hai (where)
+ phir data organize hota hai (group by, having)
+ last me output prepare hota hai (select, order by)
+
+Is order se query efficient aur fast run hoti hai.
 
 This assignment is based on basic SQL concepts like execution flow, DDL, DML, joins and some best practices.
  SQL Execution Flow
